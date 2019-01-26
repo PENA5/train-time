@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!-- FIREBASE  -->
-    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -35,11 +35,11 @@
         
        <!-- This card will initially be made up of a card and wells for each of the articles retrieved -->
           <div class="card">
-       <!-- card Heading for the retrieved articles box -->
+       <!-- card Heading -->
         <div class="card mb-4">
             <div class="card-header" style="background-color: lightblue; color: white">Train Schedule</div>
             <div class="card-body">
-              <!-- creat a table to display the train-schedule content -->
+              <!--table to display the train-schedule content -->
                 <table class="table table-sm table-hover" id='train-schedule-table'>
                     <thead>
                       <tr>
@@ -53,7 +53,7 @@
                     <tbody>
                     </tbody>
                   </table>
-            <!-- This main card will hold each of the resulting articles -->
+          
             <div class="card-body" id="schedule-section">
             </div>
           </div>
@@ -69,7 +69,7 @@
             </strong>
               <div class="card-body">
   
-              <!-- Add-Train Form-->
+              <!-- Add-Train-->
               <form role="form">
                 <div class="form-group row">
                   <label for="name-input">Train Name</label>
